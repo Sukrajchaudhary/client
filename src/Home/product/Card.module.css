@@ -1,0 +1,33 @@
+
+
+
+
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+.card {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    overflow: hidden;
+    float: left;
+}
+
+.card-header {
+    background-color: lightgray;
+    text-align: center;
+    height: 50px;
+
+}
+
+.cardBody {
+    padding: 20px;
+}
